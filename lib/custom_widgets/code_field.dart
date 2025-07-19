@@ -64,7 +64,7 @@ class _CodeFieldState extends State<CodeField> {
                   (_copied) ? Icons.done : Icons.content_paste,
                   size: 15,
                 ),
-                label: Text((_copied) ? "Copied!" : "Copy code"),
+                label: Text((_copied) ? "已复制" : "复制"),
               ),
             ],
           ),
